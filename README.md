@@ -56,3 +56,6 @@ This folder is now structured as a full learning course, not just a roadmap. Eac
 ## Templates
 - [Weekly Log Template](templates/weekly-log-template.md)
 - [Project Rubric](templates/project-rubric.md)
+
+## Goldmine Resources
+- [Curated GitHub Goldmines](GOLDMINE-GITHUB-RESOURCES.md)

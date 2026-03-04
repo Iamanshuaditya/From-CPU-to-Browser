@@ -1,61 +1,71 @@
 # From CPU to the Browser
-**A low-level frontend engineering course you can study like a textbook**
 
-This folder is now structured as a full learning course, not just a roadmap. Each week file includes:
-- deep theory
-- implementation guidance
-- lab tasks
-- debugging workflow
-- measurable checkpoints
-- mini-assessments
-- chapter-by-chapter flow
-- markdown diagrams
-- quiz sections with answer keys
-- solved practice problems
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Course Type](https://img.shields.io/badge/course-project--first-blue)](START-HERE.md)
+[![Difficulty](https://img.shields.io/badge/level-beginner%20to%20advanced-orange)](START-HERE.md)
 
-## Suggested Study Rhythm
-- Weekdays: 2-3 focused hours per day
-- Weekend: 4-6 hours for project integration and write-up
-- Every week: keep a log in `templates/weekly-log-template.md`
+A textbook-style, project-first engineering course covering the full path from CPU behavior to browser rendering and modern framework internals.
 
-## Course Sequence
-1. [Week 0.5: CPU and Memory Architecture](weeks/week-0.5-cpu-memory.md)
-2. [Week 1: Networking from Scratch](weeks/week-1-networking-from-scratch.md)
-3. [Weeks 2-3: Browser Engine Implementation](weeks/week-2-3-browser-engine.md)
-4. [Weeks 4-5: JavaScript Engine](weeks/week-4-5-javascript-engine.md)
-5. [Week 6: Virtual DOM and Reconciliation](weeks/week-6-virtual-dom.md)
-6. [Week 7: React and Next.js Internals](weeks/week-7-react-next-internals.md)
-7. [Week 8: Performance Engineering](weeks/week-8-performance-engineering.md)
-8. [Week 9: Engine Modification and Debugging](weeks/week-9-engine-modification-debugging.md)
-9. [Week 10: Hardware Simulation and Constraints](weeks/week-10-hardware-simulation.md)
-10. [Weeks 11-12: Capstone](weeks/week-11-12-capstone.md)
+## Start Here
+- [START-HERE.md](START-HERE.md)
+- [Architecture Map](docs/architecture-map.md)
+- [Master Checklist](progress/checklist.md)
 
-## How to Learn From This Pack
-- Read each theory section once quickly.
-- Re-read with a debugger or profiler open.
-- Implement the lab before moving on.
-- Write down what broke and why.
-- Do the checkpoint questions without notes.
-- Attempt quiz sections before reading answer keys.
-- Re-solve practice problems from memory on a second pass.
+## Course Navigation
+- Week modules are in `weeks/`.
+- System overviews are in `docs/`.
+- Practical build tracks are in `projects/`.
 
-## Prerequisites
-- Strong C/C++ or Rust
-- OS fundamentals (processes, memory, scheduling)
-- Data structures and algorithms
-- Basic Linux command-line workflow
+Recommended sequence:
+1. `weeks/week-0.5-cpu-memory.md`
+2. `weeks/week-1-networking-from-scratch.md`
+3. `weeks/week-2-3-browser-engine.md`
+4. `weeks/week-4-5-javascript-engine.md`
+5. `weeks/week-6-virtual-dom.md`
+6. `weeks/week-7-react-next-internals.md`
+7. `weeks/week-8-performance-engineering.md`
+8. `weeks/week-9-engine-modification-debugging.md`
+9. `weeks/week-10-hardware-simulation.md`
+10. `weeks/week-11-12-capstone.md`
 
-## Deliverables by End of Course
-- Browser pipeline implementation (parse -> style -> layout -> paint)
-- JavaScript runtime with event loop and GC basics
-- React-like reconciler and hooks model
-- Streaming SSR + hydration model
-- Performance case study with before/after metrics
-- Capstone with profiling and constraint testing
+## Projects Navigation
+- [Tiny HTTP Server](projects/tiny-http-server/README.md)
+- [HTML+CSS Parser + Tiny Layout Engine](projects/html-css-renderer/README.md)
+- [Mini Browser Pipeline](projects/mini-browser/README.md)
+- [Mini JavaScript Runtime](projects/mini-js-runtime/README.md)
+- [Mini React](projects/mini-react/README.md)
 
-## Templates
-- [Weekly Log Template](templates/weekly-log-template.md)
-- [Project Rubric](templates/project-rubric.md)
+## Debugging Playbooks
+- [Network Debugging](debugging/network-debugging.md)
+- [Performance Debugging](debugging/perf-debugging.md)
+- [Memory Debugging](debugging/memory-debugging.md)
 
-## Goldmine Resources
-- [Curated GitHub Goldmines](GOLDMINE-GITHUB-RESOURCES.md)
+## Case Studies
+- [Layout Thrashing](case-studies/layout-thrashing.md)
+- [Hydration Cost](case-studies/hydration-cost.md)
+- [React Rendering Cost](case-studies/react-rendering-cost.md)
+
+## Experiments
+- [Cache Effects](experiments/cache-effects/README.md)
+- [Event Loop Order](experiments/event-loop-order/README.md)
+- [Layout Cost](experiments/layout-cost/README.md)
+- [DOM Size Impact](experiments/dom-size-impact/README.md)
+- [HTTP/1 vs HTTP/2](experiments/http1-vs-http2/README.md)
+- [GC Pressure](experiments/gc-pressure/README.md)
+
+## Challenges
+- [Implement CSS Grid](challenges/implement-css-grid.md)
+- [Implement JS GC](challenges/implement-js-gc.md)
+- [Implement Hooks](challenges/implement-hooks.md)
+- [Implement CSS Selectors](challenges/implement-css-selectors.md)
+- [Add Profiler Instrumentation](challenges/add-profiler-instrumentation.md)
+- [Build DevTools-like Timeline](challenges/build-devtools-like-timeline.md)
+
+## Community
+- [Contributing Guide](CONTRIBUTING.md)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+- [Bug Report Template](.github/ISSUE_TEMPLATE/bug_report.md)
+- [Feature Request Template](.github/ISSUE_TEMPLATE/feature_request.md)
+
+## Curated External Resources
+- [GOLDMINE-GITHUB-RESOURCES.md](GOLDMINE-GITHUB-RESOURCES.md)

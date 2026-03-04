@@ -30,7 +30,7 @@ If you scored below 6, use the Beginner Path first.
 Best if you already build React/Next apps.
 
 Order:
-1. [Weeks 6-8](weeks/week-6-virtual-dom.md)
+1. Weeks 6-8 (`weeks/week-6-virtual-dom.md` to `weeks/week-8-performance-engineering.md`)
 2. [docs/what-happens-when-you-type-a-url.md](docs/what-happens-when-you-type-a-url.md)
 3. [projects/mini-react](projects/mini-react/README.md)
 4. [case-studies/react-rendering-cost.md](case-studies/react-rendering-cost.md)
@@ -40,17 +40,17 @@ Order:
 Best if you know server/network internals.
 
 Order:
-1. [Week 1](weeks/week-1-networking-from-scratch.md)
+1. Week 1 (`weeks/week-1-networking-from-scratch.md`)
 2. [projects/tiny-http-server](projects/tiny-http-server/README.md)
-3. [Weeks 2-3](weeks/week-2-3-browser-engine.md)
+3. Weeks 2-3 (`weeks/week-2-3-browser-engine.md`)
 4. [projects/mini-browser](projects/mini-browser/README.md)
 
 ### Path C: Systems Dev
 Best if you know low-level programming and want browser/runtime internals.
 
 Order:
-1. [Week 0.5](weeks/week-0.5-cpu-memory.md)
-2. [Weeks 2-5](weeks/week-2-3-browser-engine.md)
+1. Week 0.5 (`weeks/week-0.5-cpu-memory.md`)
+2. Weeks 2-5 (`weeks/week-2-3-browser-engine.md` and `weeks/week-4-5-javascript-engine.md`)
 3. [projects/mini-js-runtime](projects/mini-js-runtime/README.md)
 4. [docs/browser-code-reading.md](docs/browser-code-reading.md)
 
@@ -60,8 +60,8 @@ Best if you are comfortable coding but new to systems/browser internals.
 Order:
 1. [docs/mental-models.md](docs/mental-models.md)
 2. [docs/architecture-map.md](docs/architecture-map.md)
-3. [Week 0.5](weeks/week-0.5-cpu-memory.md)
-4. [Week 1](weeks/week-1-networking-from-scratch.md)
+3. Week 0.5 (`weeks/week-0.5-cpu-memory.md`)
+4. Week 1 (`weeks/week-1-networking-from-scratch.md`)
 5. [projects/tiny-http-server](projects/tiny-http-server/README.md)
 
 ## Study Rhythm (Practical)
@@ -96,7 +96,7 @@ Use the master tracker:
 - [progress/checklist.md](progress/checklist.md)
 
 Also log weekly notes with:
-- [templates/weekly-log-template.md](templates/weekly-log-template.md)
+- `templates/weekly-log-template.md`
 
 ## How to Ask for Help
 1. Reproduce issue with minimal example.
